@@ -10,7 +10,7 @@ module time_up
   always@(posedge clk or negedge rst_n)
   begin
     if(!rst_n)
-        cnt <= 32'd
+        cnt <= 32'd0;
     else
     begin  
       if(trig)                
