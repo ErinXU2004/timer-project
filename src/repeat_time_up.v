@@ -2,7 +2,7 @@ module time_up
   (
     input  clk,
     input  rst_n,
-    input  trig,
+    input  en,
     output [31:0] cfg_max,
     output reg [31:0] cnt
   );
